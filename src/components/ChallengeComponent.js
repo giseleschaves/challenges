@@ -23,7 +23,16 @@ class Challenge extends Component{
         })
           
         return(
-            <div className="row">{challenge}</div>
+            <React.Fragment>
+                <div className="row">
+                    <div className="col">
+                        <h3>Challenges</h3>
+                    </div>
+                </div>
+                <div className="row">
+                    {challenge}
+                </div>
+            </React.Fragment>
         )
     }
 

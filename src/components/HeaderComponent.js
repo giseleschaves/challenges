@@ -23,7 +23,9 @@ class Header extends Component {
             <React.Fragment>
                 <Navbar color="light" expand="md" light>
                     <div className="container">
-                        <NavbarBrand href="/">logo</NavbarBrand>
+                        <NavbarBrand href="/">
+                            <img src="/assets/images/pchallenges-logo.png" alt="product challenges logo" width="100"/>
+                        </NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
