@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Challenge from './ChallengeComponent';
+import ChallengeNew from './ChallengeNewComponent';
 
 class Main extends Component{
 
@@ -36,6 +37,7 @@ class Main extends Component{
                         </div>
                     </div>
                     <Challenge />
+                    <ChallengeNew />
                     <Footer />
                 </div>
             )
